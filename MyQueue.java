@@ -25,8 +25,7 @@ public class MyQueue {
             return firstElement;
         }
         //throw new NoSuchElementException("The queue is empty!");
-        return error;
-   
+        return error;   
     }
 
     int first(){
