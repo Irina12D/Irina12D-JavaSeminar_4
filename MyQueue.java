@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 public class MyQueue {
 
     private LinkedList<Integer> queue;
-    private int error = Integer.MIN_VALUE; // ошибка обращения к элементам пустой очереди
+    private int error = Integer.MIN_VALUE; // п╬я┬п╦п╠п╨п╟ п╬п╠я─п╟я┴п╣п╫п╦я▐ п╨ я█п╩п╣п╪п╣п╫я┌п╟п╪ п©я┐я│я┌п╬п╧ п╬я┤п╣я─п╣п╢п╦
    
     MyQueue(){
         queue = new LinkedList<Integer>();
