@@ -12,7 +12,6 @@ public class MyQueue {
 
     boolean empty(){
         return queue.size() == 0;
-
     }
 
     void enqueue(int value){
